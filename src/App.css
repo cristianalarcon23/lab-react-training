@@ -1,9 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
-}
-.cards {
-  display:flex;
+  margin-left: 2px;
+  margin-top: 5px;
 }
 
 .IdCard {
@@ -11,6 +10,7 @@
   border: 1px solid black;
   margin-bottom: 10px;
   margin-top: 10px;
+  padding: 5px;
 }
 .right {
   display: block;
@@ -18,6 +18,38 @@
 
 .greet  {
   border: 1px solid black;
+  padding: 5px;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.rgb  {
+  border: 1px solid black;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Credit-Card {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.border {
+  border-radius: 10px;
+  gap: 5px;
+  margin: 25px;
+
+}
+
+.stars {
+  border: 2px solid black;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
